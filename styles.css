@@ -4,6 +4,7 @@
 
 body{
     background: black;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 20px;
-    height: 40px;
+    height: 30px;
 }
 
 .post-header *{
@@ -33,11 +34,10 @@ body{
     gap: 10px;
 }
 
-/* Arreglar el texto  y cambiar la fuente*/
-/* .post-header div > p {
-    display: flex;
-    align-items: center;
-} */
+
+p {
+    font-family: "Roboto", sans-serif;
+}
 
 .post-image img{
     width: 100%;
@@ -62,5 +62,5 @@ body{
 }
 
 .post-body {
-    margin: 10px;
+    margin: 40px 20px 40px 20px;
 }
