@@ -1,0 +1,66 @@
+/* *{
+    border: 5px solid red;
+} */
+
+body{
+    background: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    width: 500px;
+    background: white;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 40px;
+}
+
+.post-header *{
+    height: 100%;
+}
+
+.post-header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Arreglar el texto  y cambiar la fuente*/
+/* .post-header div > p {
+    display: flex;
+    align-items: center;
+} */
+
+.post-image img{
+    width: 100%;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+}
+
+.post-icons * {
+    height: 100%;
+}
+
+.post-icons div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-body {
+    margin: 10px;
+}
